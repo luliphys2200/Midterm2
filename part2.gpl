@@ -1,0 +1,7 @@
+unset key
+set style data line
+
+set term png
+set o "part2.png"
+
+p "part2-res" u 1:2

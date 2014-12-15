@@ -1,0 +1,25 @@
+# place this file into a git repository and name it '.gitignore' (without quotes)
+
+# Ignore all
+*
+
+# Unignore files with extensions .c and .h
+!*.c
+!*.h
+
+# Unignore all dirs
+!*/
+
+# Unignore makefiles
+!Makefile
+!makefile
+
+# Unignore .gitignore
+!.gitignore
+
+# Unignore markdown files
+!*.md
+
+# Unignore png and gpl
+!*.png
+!*.gpl
